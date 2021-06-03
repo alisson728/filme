@@ -1,0 +1,94 @@
+body{
+	font-family: sans-serif;
+	color: #FFFFFF;
+	background: #000000
+	
+		
+
+}
+
+
+.main{
+	height: 50%;
+	background: url(img/fundo.jpg) center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	text-shadow: 2px 2px #000000;
+	padding: 5em o;
+	border-bottom:5px solid #696969;
+}
+.main:before{
+	content: "";
+	background-image: linear-gradient(to top, rgba(0,0,0,.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,.8)100%)
+
+}
+.main-chaild{
+	z-index: 1;
+	display: grid;
+
+}
+
+.main h1{
+	font-size: 50px;
+	text-align: center;
+
+
+}
+
+
+.main span{
+	font-size: 26px
+}
+
+
+.main p{
+	font-size: 19px;
+
+}
+
+form{
+	margin: 30px
+}
+.input{
+	width: 500px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	border:none;
+}
+.input:hover{
+	width: 502;
+	height: 52px;
+	transition: 0.5;
+	background: #C0C0C0;
+}
+
+.button{
+	height: 50px;
+	width: 100px;
+	background:#0000FF;
+	color: #FFFFFF;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+	height: 52px;
+	width: 102px;
+	background: #000080;
+	transition: 0.05s
+}
+.filmes{
+	margin: 20px
+}
+.separaçao {
+
+	margin: 20px
+}
+
