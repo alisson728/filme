@@ -19,7 +19,7 @@ body{
 	position: relative;
 	text-shadow: 2px 2px #000000;
 	padding: 5em o;
-	border-bottom:5px solid #696969;
+	border-bottom: 5px solid  #696969;
 }
 .main:before{
 	content: "";
@@ -29,9 +29,8 @@ body{
 .main-chaild{
 	z-index: 1;
 	display: grid;
-
+	background-image: linear-gradient(to top, rgba(0,0,0,.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,.8)100%)
 }
-
 .main h1{
 	font-size: 50px;
 	text-align: center;
@@ -88,7 +87,5 @@ form{
 	margin: 20px
 }
 .separaçao {
-
 	margin: 20px
 }
-
