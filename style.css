@@ -30,6 +30,25 @@ header:hover{
 	z-index: 200;
 	height: 80px;
 }
+header button{
+	background: rgb(184, 16, 16) ;
+	border: none;
+	height: 30px;
+	width: 70px;
+	position: absolute;
+	left: -10px;
+	top: -5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 1rem;
+}
+header button:hover{
+	background: red;
+	height: 35px;
+	width:75px ;
+	font-size: 17px;
+}
 
 .imagem-cabeçalho{
 	width: 150px;
