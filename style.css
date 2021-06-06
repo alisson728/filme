@@ -190,7 +190,9 @@ form{
 	width: 90vw;
 	overflow: auto;	  
 	padding: 20px;
+	scroll-behavior: none;
 }
+
 .card {
 	margin-left: 30px;
 	cursor: pointer;
