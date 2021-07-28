@@ -1,3 +1,12 @@
-.container{
-    height: 500px;
+
+.card-text{
+    font-size: 20px;
+}
+.capa{
+    height: 350px;
+    width: 100%;
+}
+.inicio{
+    text-decoration:none;
+    color: black;
 }
