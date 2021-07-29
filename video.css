@@ -1,0 +1,8 @@
+.text{
+    font-size: 30px;
+    color: darkgray;
+}
+.text:hover{
+    color: rgb(250, 0, 0);
+}
+

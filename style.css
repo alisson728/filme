@@ -1,0 +1,32 @@
+
+.text{
+    font-size: 30px;
+    color: darkgray;
+}
+.text:hover{
+    color: rgb(250, 0, 0);
+}
+
+    
+.card-text{
+    font-size: 20px;
+    
+}
+.capa{
+    height: 400px;
+    width: 100%;
+}
+.inicio{
+    text-decoration:none;
+    color: black;
+}
+.inicio:hover{
+    color: crimson;
+}
+.card-text{
+    text-align: center;
+}
+.card-text:hover{
+    color: crimson;
+    
+}
