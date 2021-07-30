@@ -16,6 +16,7 @@
     height: 400px;
     width: 100%;
 }
+
 .inicio{
     text-decoration:none;
     color: black;
@@ -29,4 +30,34 @@
 .card-text:hover{
     color: crimson;
     
+}
+.card{
+    height: 500px;
+}
+.fundo{
+    background-color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+}
+.fundo button {
+	height: 2rem;
+	width: 5rem;
+	border: none;
+	background-color: rgb(231, 14, 14);
+	cursor: pointer;
+	color: white;
+	border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 105px;
+  
+    
+  }
+
+.fundo:hover{
+    opacity: 100%;
 }
