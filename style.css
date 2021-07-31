@@ -57,7 +57,9 @@
   
     
   }
-
 .fundo:hover{
     opacity: 100%;
 }
+@media only screen and (max-device-width: 300px) {
+    .fundo buttoon{ left: 200px; } 
+} 
