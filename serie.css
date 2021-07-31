@@ -1,0 +1,22 @@
+
+.eps{
+    border-radius: 1rem;
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background-color:orange ;
+   border: none;
+   font-weight: bold;
+   color: aliceblue;
+}
+.eps:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+.temporada{
+    color: rgb(255, 255, 255);
+    
+
+}

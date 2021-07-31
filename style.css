@@ -34,6 +34,10 @@
 .card{
     height: 500px;
 }
+.card:hover{
+    transform: scale(1.2);
+    z-index: 1000;
+}
 .fundo{
     background-color: rgba(0, 0, 0, 0.514);
     position: absolute;
@@ -53,13 +57,10 @@
 	border-radius: 1rem;
     position: absolute;
     top: 50%;
-    left: 105px;
+    right: 40%;
   
     
   }
 .fundo:hover{
     opacity: 100%;
 }
-@media only screen and (max-device-width: 300px) {
-    .fundo buttoon{ left: 200px; } 
-} 
